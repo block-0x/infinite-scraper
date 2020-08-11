@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://qiita.com/derodero24'
+url = 'https://qiita.com/___xxx_'
 res = requests.get('http://localhost:8050/render.png',
                    params={'url': url, 'wait': 1, 'viewport': '2560x1600', 'render_all': 1})
 
